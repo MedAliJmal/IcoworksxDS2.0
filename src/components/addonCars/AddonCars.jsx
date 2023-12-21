@@ -3,6 +3,7 @@ import transition from "../animation/transition";
 import { TbListDetails } from "react-icons/tb";
 import { addoncars } from "../../AddonCars";
 import Card from "../card/Card";
+import { color } from "framer-motion";
 
 const AddonCars = () => {
   return (
@@ -63,23 +64,13 @@ const AddonCars = () => {
           is to click on{" "}
           <span>
             {" "}
-            <div
-              style={{
-                color: "green",
-                fontSize: "20px",
-                width: "30px",
-                height: "30px",
-                backgroundColor: "white",
-                borderRadius: "50%",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                border: "3px solid rgba(175,149,102,1)",
-                margin: "0px 10px",
-              }}
+            <span
+              className="spanbutton"
+              style={{ color: "white", border: "white solid 2px" }}
             >
-              <TbListDetails />
-            </div>
+              <TbListDetails className="icona" style={{ color: "white" }} />{" "}
+              Check Details
+            </span>
           </span>{" "}
           .
         </p>
