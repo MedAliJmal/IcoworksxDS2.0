@@ -31,6 +31,15 @@ const CategoryS = () => {
         alignItems: "center",
       }}
     >
+      <form action="" className="control" style={{ marginTop: "-100px" }}>
+        <input
+          type="text"
+          placeholder="Search for a car"
+          onChange={(e) => setText(e.target.value)}
+        />
+
+        <i className="fas fa-search"></i>
+      </form>
       <div className="carboost">
         <span
           className={boost && !cd ? "clicked" : "unclicked"}
@@ -51,15 +60,7 @@ const CategoryS = () => {
           All cars<i className="fa-solid fa-car-rear"></i>
         </span>
       </div>
-      <form action="" className="control">
-        <input
-          type="text"
-          placeholder="Search for a car"
-          onChange={(e) => setText(e.target.value)}
-        />
 
-        <i className="fas fa-search"></i>
-      </form>
       <div
         style={{
           display: "flex",
@@ -74,6 +75,9 @@ const CategoryS = () => {
           marginBottom: "-75px",
         }}
       >
+        <h5 style={{ color: "gray", textDecoration: "underline" }}>
+          Symbols Explication :
+        </h5>
         <div style={{ display: "flex", margin: "5px" }}>
           <i
             class="fa-solid fa-ban"
@@ -88,7 +92,7 @@ const CategoryS = () => {
               color: "red",
             }}
           >
-            This means the car is banned from races.
+            This car is banned from races.
           </span>
         </div>
         <div style={{ display: "flex", margin: "5px" }}>
@@ -105,7 +109,7 @@ const CategoryS = () => {
               color: "#af9566",
             }}
           >
-            This means the car got a special engine sound (addon).
+            This car got a special engine sound (addon).
           </span>
         </div>
       </div>

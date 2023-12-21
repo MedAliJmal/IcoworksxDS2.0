@@ -41,6 +41,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 .home {
   font-family: "Roboto", sans-serif;
@@ -111,6 +112,10 @@
 
 .carboost {
   margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .carboost .unclicked {

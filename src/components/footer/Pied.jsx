@@ -50,9 +50,9 @@ const Pied = () => {
             </Link>
           </li>
           <li>
-            <Link to="/Category/Drift">
+            <Link to="/Category/CxD">
               <a href="" id="title4">
-                Drift Cars
+                Cops & Drift
               </a>
             </Link>
           </li>

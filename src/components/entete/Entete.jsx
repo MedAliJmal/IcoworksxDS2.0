@@ -29,12 +29,12 @@ const Entete = () => {
             S Cars
           </a>
         </Link>
-        <Link to="Category/Drift">
+        <Link to="Category/CxD">
           <a href="" id="title4">
-            Drift Cars
+            Cops & Drift
           </a>
         </Link>
-        <Link to="Categry/AddonCars">
+        <Link to="Category/AddonCars">
           <a href="" id="title5">
             Addon Cars
           </a>

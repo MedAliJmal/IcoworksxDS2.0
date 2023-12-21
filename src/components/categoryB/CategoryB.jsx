@@ -31,6 +31,15 @@ const CategoryB = () => {
         alignItems: "center",
       }}
     >
+      <form action="" style={{ marginTop: "-100px" }} className="control">
+        <input
+          type="text"
+          placeholder="Search for a car"
+          onChange={(e) => setText(e.target.value)}
+        />
+
+        <i className="fas fa-search"></i>
+      </form>
       <div className="carboost">
         <span
           className={boost && !cd ? "clicked" : "unclicked"}
@@ -51,15 +60,7 @@ const CategoryB = () => {
           All cars<i className="fa-solid fa-car-rear"></i>
         </span>
       </div>
-      <form action="" className="control">
-        <input
-          type="text"
-          placeholder="Search for a car"
-          onChange={(e) => setText(e.target.value)}
-        />
 
-        <i className="fas fa-search"></i>
-      </form>
       <div
         style={{
           display: "flex",
@@ -74,6 +75,9 @@ const CategoryB = () => {
           marginBottom: "-75px",
         }}
       >
+        <h5 style={{ color: "gray", textDecoration: "underline" }}>
+          Symbols Explication :
+        </h5>
         <div style={{ display: "flex", margin: "5px" }}>
           <i
             class="fa-solid fa-ban"

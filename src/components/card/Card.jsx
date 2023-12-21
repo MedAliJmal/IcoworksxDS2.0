@@ -1,5 +1,9 @@
 import React from "react";
 import "./Card.css";
+import { GiPowerLightning, GiTireTracks } from "react-icons/gi";
+import { TbListDetails } from "react-icons/tb";
+import { Link } from "react-router-dom";
+
 const Card = ({ el }) => {
   return (
     <div style={{ position: "relative", margin: "60px 20px" }}>
@@ -56,27 +60,28 @@ const Card = ({ el }) => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
+              textAlign: "center",
+              marginTop: "-10px",
             }}
           >
             {el.ees ? (
-              <div
+              <span
                 style={{
                   display: "flex",
                   justifyContent: "center",
-                  alignItems: "center",
+                  alignItems: "baseline",
                 }}
               >
                 {" "}
-                <span style={{ color: "#af9566" }}>Enhanced Engine Sound</span>
                 <i
                   class="fa-regular fa-file-audio"
                   style={{
                     color: "#af9566",
-                    margin: "0 0px 0px 15px",
-                    fontSize: "20px",
+                    margin: "0px 0px 0px 15px",
+                    fontSize: "21px",
                   }}
                 ></i>
-              </div>
+              </span>
             ) : null}{" "}
             <span>
               {el.ban ? (
@@ -88,6 +93,55 @@ const Card = ({ el }) => {
                     fontSize: "20px",
                   }}
                 ></i>
+              ) : null}
+            </span>
+            <span>
+              {el.pol ? (
+                <i
+                  style={{
+                    color: "blue",
+                    margin: "0 0px 0px 15px",
+                    fontSize: "20px",
+                  }}
+                  class="fa-solid fa-building-shield"
+                ></i>
+              ) : null}
+            </span>
+            <span>
+              {el.drift ? (
+                <GiTireTracks
+                  style={{
+                    color: "brown",
+                    margin: "0 0px 0px 15px",
+                    fontSize: "20px",
+                  }}
+                />
+              ) : null}
+            </span>
+            <span>
+              {el.power ? (
+                <GiPowerLightning
+                  style={{
+                    color: "red",
+                    marginLeft: "5px",
+                    margin: "0px 0px 0px 0px",
+                    fontSize: "20px",
+                  }}
+                />
+              ) : null}
+            </span>
+            <span>
+              {el.addon ? (
+                <Link to={`/Category/AddonCars/${el.id}`}>
+                  <TbListDetails
+                    style={{
+                      color: "green",
+                      marginLeft: "5px",
+                      margin: "0px 15px",
+                      fontSize: "25px",
+                    }}
+                  />
+                </Link>
               ) : null}
             </span>
           </div>

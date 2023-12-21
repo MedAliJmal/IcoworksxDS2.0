@@ -8,6 +8,7 @@ import CategoryB from "./components/categoryB/CategoryB";
 import CategoryS from "./components/categoryS/CategoryS";
 import DriftCars from "./components/driftCars/DriftCars";
 import AddonCars from "./components/addonCars/AddonCars";
+import AddonDetails from "./components/addonCarDetails/AddonDetails";
 
 function App() {
   const location = useLocation();
@@ -19,8 +20,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Category/B" element={<CategoryB />} />
           <Route path="/Category/S" element={<CategoryS />} />
-          <Route path="/Category/Drift" element={<DriftCars />} />
+          <Route path="/Category/CxD" element={<DriftCars />} />
           <Route path="/Category/AddonCars" element={<AddonCars />} />
+          <Route path="/Category/AddonCars/:id" element={<AddonDetails />} />
         </Routes>
       </AnimatePresence>
       <Pied />

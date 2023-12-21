@@ -1820,7 +1820,7 @@ export const carsB = [
   },
   {
     id: Math.random(),
-    name: "Imponte Dukes TrophyTruck",
+    name: "Imponte Dukes TT",
     url: "https://img.gta5-mods.com/q95/images/dukes-trophytruck-replace/d936f5-8.png",
     accel: "65%",
     tops: "65%",
