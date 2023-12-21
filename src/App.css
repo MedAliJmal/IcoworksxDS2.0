@@ -224,11 +224,11 @@
   border-radius: 30px;
 }
 .spanbutton {
-  border: 2px solid green;
+  border: 2px solid #af9566;
   border-radius: 15px;
   display: flex;
   align-items: center;
-  color: green;
+  color: #af9566;
   margin-left: 5px;
   margin: 0px 15px;
   font-size: 15px;
@@ -237,13 +237,13 @@
   transition: 0.5s;
 }
 .spanbutton:hover {
-  color: rgb(0, 0, 0);
-  border: 2px solid black;
+  color: white;
+  border: 2px solid #af9566;
   background-color: #af9566;
   transition: 0.5s;
 }
 .icona {
-  color: green;
+  color: #af9566;
   margin-left: 5px;
   margin: 0px 15px;
   font-size: 25px;
@@ -251,6 +251,6 @@
 }
 
 .spanbutton:hover .icona {
-  color: black;
+  color: white;
   transition: 0.5s;
 }
