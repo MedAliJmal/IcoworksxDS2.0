@@ -89,7 +89,7 @@ export const copcars = [
   {
     id: Math.random(),
     name: "Vapid Cruiser",
-    url: "https://gtacars.net/images/f9422d4b96dc18901d745ee1289d1198",
+    url: "https://gtacars.net/images/aaaf17ff96517382168e138eb9ec0423",
     accel: "76%",
     tops: "76%",
     grip: "78%",
@@ -103,7 +103,7 @@ export const copcars = [
   {
     id: Math.random(),
     name: "Vapid Cruiser II",
-    url: "https://gtacars.net/images/aaaf17ff96517382168e138eb9ec0423",
+    url: "https://gtacars.net/images/5316a7915a60fc13f7df8463808d14ba",
     accel: "76%",
     tops: "77%",
     grip: "74%",
