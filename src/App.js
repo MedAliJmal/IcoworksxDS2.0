@@ -22,7 +22,7 @@ function App() {
           <Route path="/Category/S" element={<CategoryS />} />
           <Route path="/Category/CxD" element={<DriftCars />} />
           <Route path="/Category/AddonCars" element={<AddonCars />} />
-          <Route path="/Category/AddonCars/:id" element={<AddonDetails />} />
+          <Route path="/Category/AddonCars/:name" element={<AddonDetails />} />
         </Routes>
       </AnimatePresence>
       <Pied />

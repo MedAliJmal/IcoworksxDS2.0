@@ -132,7 +132,7 @@ const Card = ({ el }) => {
             </span>
             <span>
               {el.addon ? (
-                <Link to={`/Category/AddonCars/${el.id}`}>
+                <Link to={`/Category/AddonCars/${el.name}`}>
                   <TbListDetails
                     style={{
                       color: "green",
