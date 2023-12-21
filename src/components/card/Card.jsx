@@ -132,15 +132,13 @@ const Card = ({ el }) => {
             </span>
             <span>
               {el.addon ? (
-                <Link to={`/Category/AddonCars/${el.name}`}>
-                  <TbListDetails
-                    style={{
-                      color: "green",
-                      marginLeft: "5px",
-                      margin: "0px 15px",
-                      fontSize: "25px",
-                    }}
-                  />
+                <Link
+                  to={`/Category/AddonCars/${el.name}`}
+                  style={{ textDecoration: "none" }}
+                >
+                  <span className="spanbutton">
+                    <TbListDetails className="icona" /> Check Details
+                  </span>
                 </Link>
               ) : null}
             </span>

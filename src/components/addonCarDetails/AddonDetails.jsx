@@ -39,11 +39,7 @@ const AddonDetails = () => {
               textShadow: "2px 2px 7px rgba(0,0,0,1)",
             }}
           >
-            The BMW E30 is the second generation of BMW 3 Series, which was
-            produced from 1982 to 1994 and replaced the E21 3 Series. The model
-            range included 2-door coupe and convertible body styles, as well as
-            being the first 3 Series to be produced in 4-door sedan and
-            wagon/estate body styles.
+            {car.desc}
           </p>
           <div className="w3-light-grey" style={{ margin: "5px" }}>
             <div
@@ -98,7 +94,7 @@ const AddonDetails = () => {
           src={`${car.vid}?si=eqQ4CW46MZm-5E1x&autoplay=1&vq=hd720`}
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen"
           allowfullscreen
         ></iframe>
       </div>
