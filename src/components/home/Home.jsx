@@ -44,6 +44,7 @@ const Home = () => {
           padding: "10px",
           marginBottom: "25px",
           paddingBottom: "25px",
+          marginTop: "-180px",
         }}
       >
         <h1
