@@ -84,9 +84,18 @@ const AddonCars = () => {
           .
         </p>
       </div>
-      {addoncars.map((el) => (
-        <Card el={el} key={el.id} />
-      ))}
+      <div
+        style={{
+          display: "flex",
+          alignContent: "center",
+          justifyContent: "space-evenly",
+          flexWrap: "wrap",
+        }}
+      >
+        {addoncars.map((el) => (
+          <Card el={el} key={el.id} />
+        ))}
+      </div>
     </div>
   );
 };
