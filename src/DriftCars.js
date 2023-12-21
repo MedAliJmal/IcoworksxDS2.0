@@ -200,7 +200,7 @@ export const copcars = [
   },
   {
     id: Math.random(),
-    name: "Police BF400",
+    name: "Police Hakucho",
     url: "https://s3-screenshots.int-cdn.lcpdfrusercontent.com/monthly_2016_06/20160618171825_1.png.16a33e305b7bd2745bc621fc21a73e33.png",
     accel: "73%",
     tops: "73%",
