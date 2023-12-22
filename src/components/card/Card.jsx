@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Card.css";
-import { GiPowerLightning, GiTireTracks } from "react-icons/gi";
+import { GiPowerLightning, GiTakeMyMoney, GiTireTracks } from "react-icons/gi";
 import { TbListDetails } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,19 @@ const Card = ({ el }) => {
                 />
               ) : null}
             </span>
+
             {el.name}
+            <span>
+              {el.exc ? (
+                <GiTakeMyMoney
+                  style={{
+                    color: "silver",
+                    margin: "0px 4px 0px 4px",
+                    fontSize: "20px",
+                  }}
+                />
+              ) : null}
+            </span>
           </h3>
           <div className="w3-light-grey" style={{ margin: "5px" }}>
             <div
