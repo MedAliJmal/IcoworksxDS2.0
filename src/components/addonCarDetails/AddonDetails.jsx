@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import transition from "../animation/transition";
 import { useParams } from "react-router-dom";
 import { addoncars } from "../../AddonCars";
 
 const AddonDetails = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   const params = useParams();
   console.log(params);
   const car = addoncars.find((el) => el.name === params.name);

@@ -1,7 +1,7 @@
 export const addoncars = [
   {
     id: Math.random(),
-    name: "JICO'S BMW E30",
+    name: "じこ : BMW E30",
     url: "https://img.gta5-mods.com/q95/images/bmw-m3-e30-1990-add-on-tuning-template/398d20-81.jpg",
     accel: "87%",
     tops: "87%",
@@ -17,7 +17,7 @@ export const addoncars = [
   },
   {
     id: Math.random(),
-    name: "JICO'S PULSAR GTI-R",
+    name: "じこ : PULSAR GTI-R",
     url: "https://www.gtav.hachiraito.com/wp-content/uploads/2022/03/pulsar-cover-scaled.jpg",
     accel: "85%",
     tops: "85%",
@@ -33,7 +33,7 @@ export const addoncars = [
   },
   {
     id: Math.random(),
-    name: "CHAWA'S SKYLINE R32",
+    name: "CHAWA : SKYLINE R32",
     url: "https://img.gta5-mods.com/q95/images/nissan-bnr-r32-pandem-add-on/4313dc-04.jpg",
     accel: "86%",
     tops: "84%",
@@ -49,9 +49,9 @@ export const addoncars = [
   },
   {
     id: Math.random(),
-    name: "WASSIMOS'S Ford Raptor",
+    name: "WASSIMOS : Ford Raptor",
     url: "https://img.gta5-mods.com/q95/images/2017-ford-raptor-hq-rigged-suspension-multi-dirt-animated-engine-tuning/3099bd-main.png",
-    accel: "80%",
+    accel: "78%",
     tops: "75%",
     grip: "83%",
     cat: "S+",

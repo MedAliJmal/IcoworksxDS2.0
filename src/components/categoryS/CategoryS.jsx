@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import transition from "../animation/transition";
 import Card from "../card/Card";
 import { carsS } from "../../ClassS";
 
 const CategoryS = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   const [text, setText] = useState("");
   const [cd, setCd] = useState(false);
   const [boost, setBoost] = useState(false);

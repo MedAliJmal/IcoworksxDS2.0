@@ -635,6 +635,7 @@ export const carsB = [
     colorC: "orange",
     avail: "Cardealer",
     colorAv: "green",
+    ban: true,
   },
   {
     id: Math.random(),

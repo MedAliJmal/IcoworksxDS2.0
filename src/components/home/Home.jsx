@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "../card/Card";
 import transition from "../animation/transition";
 import { GiPowerLightning, GiTakeMyMoney, GiTireTracks } from "react-icons/gi";
+import { addoncars } from "../../AddonCars";
+import { TbListDetails } from "react-icons/tb";
+import { carsB } from "../../ClassB";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   const car = {
     id: Math.random(),
     name: "Veto Classic",
@@ -79,7 +85,101 @@ const Home = () => {
           you need like the example shown down below :
         </p>
       </div>
-      <Card el={car} />
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-evenly",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "30%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+            margin: "25px",
+            alignItems: "center",
+            borderRadius: "15px",
+            border: "5px solid #AF9566",
+            backdropFilter: "blur(70%)",
+            backgroundColor: "rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h4 style={{ textShadow: "2px 2px 7px rgba(175,149,102,1)" }}>
+            GTA Car example :
+          </h4>
+          <p
+            style={{
+              height: "35px",
+              width: "90%",
+              marginTop: "5%",
+              fontSize: "15px",
+              color: "white",
+              textShadow: "2px 2px 7px rgba(0,0,0,1)",
+              marginBottom: "83px",
+            }}
+          >
+            So basically we made a great improvement of the GTA Vanilla cars
+            handling so the stats show down below will give you an idea about
+            the car new performance
+          </p>
+          <Card
+            el={carsB[carsB.findIndex((el) => el.name.includes("Issi Sport"))]}
+          />
+        </div>
+        <div
+          style={{
+            width: "30%",
+            display: "flex",
+            flexDirection: "column",
+            margin: "25px",
+            justifyContent: "space-evenly",
+            alignItems: "center",
+            borderRadius: "15px",
+            border: "5px solid #AF9566",
+            backdropFilter: "blur(70%)",
+            backgroundColor: "rgba(0, 0, 0, 0.2)",
+          }}
+        >
+          <h4 style={{ textShadow: "2px 2px 7px rgba(175,149,102,1)" }}>
+            Addon Car example :
+          </h4>
+          <p
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+
+              height: "35px",
+              width: "90%",
+              marginTop: "5%",
+              fontSize: "15px",
+              color: "white",
+              textShadow: "2px 2px 7px rgba(0,0,0,1)",
+              marginBottom: "83px",
+            }}
+          >
+            For the addon cars you can click on :{" "}
+            <span
+              className="spanbutton"
+              style={{
+                color: "white",
+                border: "white solid 2px",
+                width: "45%",
+                margin: "5px",
+              }}
+            >
+              <TbListDetails className="icona" style={{ color: "white" }} />{" "}
+              Check Details
+            </span>
+            to watch a video of that car and enjoy the handling & the engine
+            sound
+          </p>
+          <Card el={addoncars[1]} />
+        </div>
+      </div>
       <div
         style={{
           width: "90%",

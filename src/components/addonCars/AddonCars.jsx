@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import transition from "../animation/transition";
 import { TbListDetails } from "react-icons/tb";
 import { addoncars } from "../../AddonCars";
 import Card from "../card/Card";
-import { color } from "framer-motion";
 
 const AddonCars = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div
       style={{

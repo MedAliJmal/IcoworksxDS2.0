@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Card.css";
 import { GiPowerLightning, GiTireTracks } from "react-icons/gi";
 import { TbListDetails } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
 const Card = ({ el }) => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <div style={{ position: "relative", margin: "60px 20px" }}>
       <div className="card">
@@ -12,7 +15,21 @@ const Card = ({ el }) => {
           <img src={el.url} alt="imgZ" />
         </div>
         <div className="content">
-          <h3 style={{ marginBottom: "15px" }}>{el.name}</h3>
+          <h3 style={{ marginBottom: "15px" }}>
+            <span>
+              {el.power ? (
+                <GiPowerLightning
+                  style={{
+                    color: "red",
+                    marginLeft: "5px",
+                    margin: "0px 4px -3px 0px",
+                    fontSize: "21px",
+                  }}
+                />
+              ) : null}
+            </span>
+            {el.name}
+          </h3>
           <div className="w3-light-grey" style={{ margin: "5px" }}>
             <div
               className="w3-blue"
@@ -48,9 +65,9 @@ const Card = ({ el }) => {
               <p style={{ width: "180px" }}> {`  Grip : ${el.grip}`}</p>
             </div>
           </div>
-          <h4>
+          <h6>
             Class : <span style={{ color: `${el.colorC}` }}>{el.cat}</span>
-          </h4>
+          </h6>
           <h6>
             Availability :{" "}
             <span style={{ color: `${el.colorAv}` }}>{el.avail}</span>
@@ -61,7 +78,7 @@ const Card = ({ el }) => {
               alignItems: "center",
               justifyContent: "center",
               textAlign: "center",
-              marginTop: "-10px",
+              marginTop: "-4px",
             }}
           >
             {el.ees ? (
@@ -113,18 +130,6 @@ const Card = ({ el }) => {
                   style={{
                     color: "brown",
                     margin: "0 0px 0px 15px",
-                    fontSize: "20px",
-                  }}
-                />
-              ) : null}
-            </span>
-            <span>
-              {el.power ? (
-                <GiPowerLightning
-                  style={{
-                    color: "red",
-                    marginLeft: "5px",
-                    margin: "0px 0px 0px 0px",
                     fontSize: "20px",
                   }}
                 />
