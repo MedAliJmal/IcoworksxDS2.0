@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import transition from "../animation/transition";
 import { TbListDetails } from "react-icons/tb";
 import { addoncars } from "../../AddonCars";
@@ -8,6 +8,8 @@ const AddonCars = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
+  const [text, setText] = useState("");
+
   return (
     <div
       style={{
@@ -53,7 +55,6 @@ const AddonCars = () => {
         <p
           style={{
             width: "90%",
-            marginTop: "5%",
             fontSize: "20px",
             color: "black",
             textShadow: "2px 2px 7px rgba(175,149,102,1)",
@@ -76,7 +77,17 @@ const AddonCars = () => {
           </span>{" "}
           .
         </p>
+        <form action="" className="control" style={{ marginTop: "20px" }}>
+          <input
+            type="text"
+            placeholder="Search for a car"
+            onChange={(e) => setText(e.target.value)}
+          />
+
+          <i className="fas fa-search"></i>
+        </form>
       </div>
+
       <div
         style={{
           display: "flex",
@@ -85,9 +96,13 @@ const AddonCars = () => {
           flexWrap: "wrap",
         }}
       >
-        {addoncars.map((el) => (
-          <Card el={el} key={el.id} />
-        ))}
+        {addoncars
+          .filter((el) =>
+            el.name.toUpperCase().trim().includes(text.trim().toUpperCase())
+          )
+          .map((el) => (
+            <Card el={el} key={el.id} />
+          ))}
       </div>
     </div>
   );
