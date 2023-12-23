@@ -63,7 +63,7 @@ const Home = () => {
           <a href="https://discord.gg/dictators" style={{ color: "#fff" }}>
             DS Roleplay
           </a>{" "}
-          where you're going to exprience a huge variety of cars with a close
+          where you're going to experience a huge variety of cars with a close
           performance.
         </h1>
         <p
@@ -75,10 +75,10 @@ const Home = () => {
             textShadow: "2px 2px 7px rgba(0,0,0,1)",
           }}
         >
-          Basically the are 2 cars categories supercars & sleepers (S class & B
-          class), in each of those categories there are vehicles that are easy
-          to obtain at the cardealer & there're is some unique cars that you
-          need to Vynscratch them through boosting giving you a better driving
+          There are 2 categories : supercars & sleepers (S class & B class), in
+          each of those categories there are vehicles that are easy to obtain at
+          the cardealer & there're is some unique cars that you need to
+          Vynscratch them through boosting giving you a better driving
           experience (enhanced engine sound , a slight performance diffrence) so
           we created this website to make it clear for you ! all you need to do
           is to select the category you want and you'll get all the informations
