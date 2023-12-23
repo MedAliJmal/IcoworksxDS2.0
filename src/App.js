@@ -9,6 +9,7 @@ import CategoryS from "./components/categoryS/CategoryS";
 import DriftCars from "./components/driftCars/DriftCars";
 import AddonCars from "./components/addonCars/AddonCars";
 import AddonDetails from "./components/addonCarDetails/AddonDetails";
+import GovernmentDetails from "./components/governmentDetails/GovernmentDetails";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,10 @@ function App() {
           <Route path="/Category/CxD" element={<DriftCars />} />
           <Route path="/Category/AddonCars" element={<AddonCars />} />
           <Route path="/Category/AddonCars/:name" element={<AddonDetails />} />
+          <Route
+            path="/Category/GovermentCars/:name"
+            element={<GovernmentDetails />}
+          />
         </Routes>
       </AnimatePresence>
       <Pied />

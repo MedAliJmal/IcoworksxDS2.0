@@ -3,6 +3,7 @@ import transition from "../animation/transition";
 import { GiPowerLightning, GiTireTracks } from "react-icons/gi";
 import { copcars, driftcars } from "../../DriftCars";
 import Card from "../card/Card";
+import { Link } from "react-router-dom";
 
 const DriftCars = () => {
   useEffect(() => {
@@ -155,7 +156,13 @@ const DriftCars = () => {
         }}
       >
         {copcars.map((el) => (
-          <Card el={el} key={el.id} />
+          <Link
+            to={`/Category/GovermentCars/${el.name}`}
+            style={{ textDecoration: "none" }}
+          >
+            {" "}
+            <Card el={el} key={el.id} />
+          </Link>
         ))}
       </div>
       <div

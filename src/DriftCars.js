@@ -13,6 +13,8 @@ export const copcars = [
     ees: true,
     pol: true,
     power: true,
+    vid: "https://www.youtube.com/embed/rz3D0IZUBr0",
+    desc: "At its core, the C7 Corvette features an all-new 6.2 Liter LT1 V-8 engine. Development of the fifth-generation LT1 included more than 10 million hours of computational analysis, with more than 6 million hours alone spent on the combustion system.",
   },
   {
     id: Math.random(),
@@ -28,6 +30,8 @@ export const copcars = [
     ees: true,
     pol: true,
     power: true,
+    vid: "https://www.youtube.com/embed/4fYfXZEZNSo",
+    desc: "The Dodge Challenger SRT Hellcat Redeye is a remarkable performer driven by a 6.2-liter supercharged V8 pumping out 797 hp and 707 lb-ft (959 Nm) of torque. It is able to hit 60 mph (96 km/h) in just 3.4 seconds and run down the quarter-mile in 10.8 seconds.",
   },
   {
     id: Math.random(),
@@ -43,6 +47,25 @@ export const copcars = [
     ees: true,
     pol: true,
     power: true,
+    vid: "https://www.youtube.com/embed/KAfctb8XMoM",
+    desc: "The 2016 Ford Mustang is a four-seat sports car that competes with the Chevrolet Camaro and Dodge Challenger. It's available in coupe and convertible body styles, as well as five trim levels: base, EcoBoost, EcoBoost Premium, GT and GT Premium. High-performance Shelby GT350 and GT350R versions are also available, and are covered separately.",
+  },
+  {
+    id: Math.random(),
+    name: "Police Maverick じこ",
+    url: "https://gtacars.net/images/77f06b062c6a6ac15eead6fcad4ba3df",
+    accel: "100%",
+    tops: "100%",
+    grip: "100%",
+    cat: "Helicopter",
+    colorC: "Red",
+    avail: "Government",
+    colorAv: "RED",
+    ees: true,
+    pol: true,
+    power: true,
+    vid: "https://www.youtube.com/embed/-pp7PZPciT0",
+    desc: "The Police Maverick (also known as the VCPD Maverick) is a police vehicle and the first controllable police helicopter introduced in the series, debuting in Grand Theft Auto: Vice City. It is manufactured by Western Company in Grand Theft Auto IV and Buckingham in Grand Theft Auto V & with じこ's touch now it reaches 255+ KMH & Have a great acceleration.",
   },
   {
     id: Math.random(),
@@ -57,6 +80,8 @@ export const copcars = [
     colorAv: "RED",
     ees: true,
     pol: true,
+    vid: "https://www.youtube.com/embed/qtSu0mN4CFc",
+    desc: "The Dodge Charger SRT Hellcat police car is powered by a 6.2-liter V8 engine that produces 707 horsepower and 650 lb-ft of torque. As previously mentioned, the Dodge Charger SRT Hellcat Police Pursuit has a V8 engine and features an all-wheel-drive configuration.",
   },
   {
     id: Math.random(),
@@ -71,10 +96,12 @@ export const copcars = [
     colorAv: "RED",
     ees: true,
     pol: true,
+    vid: "https://www.youtube.com/embed/kEoIi1jTXtc",
+    desc: "The Ford Crown Victoria (Crown Vic) is a full-size sedan that was marketed and manufactured by Ford. The successor to the Ford LTD Crown Victoria, two generations of the model line were produced from the 1992 until the 2012 model years.",
   },
   {
     id: Math.random(),
-    name: "Ford Explorer (CVPI)",
+    name: "Ford Explorer",
     url: "https://launcherleaks.com/uploads/monthly_2022_01/unknown.png.59aef601f2113f3e0bbc48457d15b8b3.png",
     accel: "78%",
     tops: "78%",
@@ -85,6 +112,8 @@ export const copcars = [
     colorAv: "RED",
     ees: true,
     pol: true,
+    vid: "https://www.youtube.com/embed/7zK6vLHfarI",
+    desc: "The Ford Explorer is available in Base, XLT, ST-Line, Timberline, Limited, ST, King Ranch and Platinum trims. Lower-priced Explorers have a turbocharged 2.3-liter four-cylinder engine (300 horsepower, 310 lb-ft of torque), while higher-priced models include a turbocharged 3.0-liter V6 engine (400 hp, 415 lb-ft).",
   },
   {
     id: Math.random(),
@@ -99,6 +128,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    desc: "The vehicle is a Bravado Buffalo similar to the first and second generation Dodge Charger Police Package used by the New York Police Department. The livery is almost exactly the same as those used on the New York Police Department's Chargers.",
+    vid: "https://www.youtube.com/embed/qKVt89qQyts",
   },
   {
     id: Math.random(),
@@ -113,6 +144,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/eK3EH3d4sFI",
+    desc: "The Police Cruiser is powered by a 4-cylinder engine, coupled with a 5-speed gearbox in a front-engine, rear-wheel-drive layout. features good acceleration compared to most sedans, far better than the Stanier-based model. Acceleration, braking and handling are good, but durability is poor.",
   },
   {
     id: Math.random(),
@@ -127,6 +160,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/dUFrs53_m28",
+    desc: "The Vapid Police Stanier LE Cruiser is a Emergency vehicle featured in Grand Theft Auto V and GTA Online.The Police Stanier LE Cruiser is a variant of the standard Stanier base model.",
   },
   {
     id: Math.random(),
@@ -141,6 +176,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    desc: "FBI vehicles may be unmarked to blend in with regular traffic, while in other cases they may be clearly marked to indicate law enforcement presence. FBI agents drive ummarked vehicles. Some will have Official US Government license plates, and others will have ordinary state issued license plates. & this vehicle does the job.",
+    vid: "https://www.youtube.com/embed/bt5x34Qhass",
   },
   {
     id: Math.random(),
@@ -155,6 +192,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    desc: "The Police Transporter's design is based on a passenger version of the second generation Burrito, issued for law-enforcement purposes. The vehicle is fitted with several protective parts, including a bullbar, barred windows and bulletproof windshield.",
+    vid: "https://www.youtube.com/embed/QrhU7gz8pug",
   },
   {
     id: Math.random(),
@@ -169,6 +208,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/kz8odyEguNQ",
+    desc: "A riot control vehicle, also known as a riot suppression vehicle or simply a riot vehicle, is an armored or reinforced police vehicle used for riot control.",
   },
   {
     id: Math.random(),
@@ -183,6 +224,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/NXj8wYiDyJo",
+    desc: "The Police Bike is seemingly based on the Harley-Davidson Road King FLHP. It is similar to an Electra Glide, but is closer in design to the Road King due to the lack of a fairing.",
   },
   {
     id: Math.random(),
@@ -197,6 +240,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/h0Fv4eZMQMM",
+    desc: "The BMW R1200GS and R1200GS Adventure (R1200GSA) are motorcycles manufactured in Berlin, Germany by BMW Motorrad, part of the BMW group. It is one of the BMW GS family of dual sport motorcycles. Both motorcycles have a 1,170 cc (71 cu in), two-cylinder boxer engine with four valves per cylinder. The Adventure has a large-capacity fuel tank and long travel suspension. As of 2012, BMW's R1200GS bikes are their top-selling models.[4]",
   },
   {
     id: Math.random(),
@@ -211,6 +256,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/doY0v1bYw2U",
+    desc: "When the history books are written, the BF400 will be seen as our age's greatest expression of the pioneer spirit. No other advance in off-road engineering has broughty us this close to our forefathers' dreams of a land where no area of pristine wilderness is safe from noise, smoke, gas and discarded bottles of Pisswasser. Welcome to the brave new world.",
   },
   {
     id: Math.random(),
@@ -225,6 +272,8 @@ export const copcars = [
     colorAv: "RED",
     ees: false,
     pol: true,
+    vid: "https://www.youtube.com/embed/-8PyFqnyd2c",
+    desc: "The Hakuchou is a power-house motorcycle with a beefy body shell that contains a strong, powerful engine. It is more powerful than the Bati 801, and bears a longer wheelbase compared to other sport bikes.",
   },
 ];
 

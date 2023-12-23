@@ -3,6 +3,7 @@ import transition from "../animation/transition";
 import { TbListDetails } from "react-icons/tb";
 import { addoncars } from "../../AddonCars";
 import Card from "../card/Card";
+import { Link } from "react-router-dom";
 
 const AddonCars = () => {
   useEffect(() => {
@@ -101,7 +102,12 @@ const AddonCars = () => {
             el.name.toUpperCase().trim().includes(text.trim().toUpperCase())
           )
           .map((el) => (
-            <Card el={el} key={el.id} />
+            <Link
+              to={`/Category/AddonCars/${el.name}`}
+              style={{ textDecoration: "none" }}
+            >
+              <Card el={el} key={el.id} />
+            </Link>
           ))}
       </div>
     </div>

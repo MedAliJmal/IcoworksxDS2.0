@@ -157,6 +157,15 @@ const Card = ({ el }) => {
                     <TbListDetails className="icona" /> Check Details
                   </span>
                 </Link>
+              ) : el.pol ? (
+                <Link
+                  to={`/Category/GovermentCars/${el.name}`}
+                  style={{ textDecoration: "none" }}
+                >
+                  <span className="spanbutton">
+                    <TbListDetails className="icona" /> Check Details
+                  </span>
+                </Link>
               ) : null}
             </span>
           </div>
