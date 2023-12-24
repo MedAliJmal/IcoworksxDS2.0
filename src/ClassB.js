@@ -249,8 +249,8 @@ export const carsB = [
     grip: "76%",
     cat: "B",
     colorC: "orange",
-    avail: "Cardealer",
-    colorAv: "green",
+    avail: "Cardealer / Boosting",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
