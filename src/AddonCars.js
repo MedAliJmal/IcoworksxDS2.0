@@ -45,7 +45,7 @@ export const addoncars = [
     colorC: "blue",
     avail: "Exclusive",
     colorAv: "RED",
-    vid: "https://www.youtube.com/embed/KJ2CuReNKG4",
+    vid: "https://www.youtube.com/embed/mqe0t93TPfk",
     ees: true,
     addon: true,
     exc: true,
