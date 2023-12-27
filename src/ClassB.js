@@ -333,7 +333,7 @@ export const carsB = [
     grip: "69%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -453,7 +453,7 @@ export const carsB = [
     grip: "73%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -477,7 +477,7 @@ export const carsB = [
     grip: "75%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -501,7 +501,7 @@ export const carsB = [
     grip: "72%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -525,7 +525,7 @@ export const carsB = [
     grip: "70%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -573,7 +573,7 @@ export const carsB = [
     grip: "73%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -597,7 +597,7 @@ export const carsB = [
     grip: "67%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -609,7 +609,7 @@ export const carsB = [
     grip: "70%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -706,7 +706,7 @@ export const carsB = [
     grip: "70%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -730,7 +730,7 @@ export const carsB = [
     grip: "74%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -742,7 +742,7 @@ export const carsB = [
     grip: "72%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -863,7 +863,7 @@ export const carsB = [
     grip: "72%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -887,7 +887,7 @@ export const carsB = [
     grip: "74%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -971,7 +971,7 @@ export const carsB = [
     grip: "73%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -1055,7 +1055,7 @@ export const carsB = [
     grip: "69%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -1079,7 +1079,7 @@ export const carsB = [
     grip: "72%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -1175,7 +1175,7 @@ export const carsB = [
     grip: "72%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -1223,7 +1223,7 @@ export const carsB = [
     grip: "71%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "Red",
   },
   {
@@ -1247,7 +1247,7 @@ export const carsB = [
     grip: "73%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
 
@@ -1284,7 +1284,7 @@ export const carsB = [
     grip: "73%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
@@ -1380,7 +1380,7 @@ export const carsB = [
     grip: "69%",
     cat: "B",
     colorC: "orange",
-    avail: "Boosting",
+    avail: "Cardealer / Boosting",
     colorAv: "red",
   },
   {
