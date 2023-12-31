@@ -334,7 +334,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -454,7 +454,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -478,7 +478,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -502,7 +502,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -526,7 +526,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -574,7 +574,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -598,7 +598,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -610,7 +610,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -707,7 +707,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -731,7 +731,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -743,7 +743,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -864,7 +864,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -888,7 +888,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -972,7 +972,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -1056,7 +1056,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -1080,7 +1080,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -1176,7 +1176,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -1224,7 +1224,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "Red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -1248,7 +1248,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
 
   {
@@ -1285,7 +1285,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -1381,7 +1381,7 @@ export const carsB = [
     cat: "B",
     colorC: "orange",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),

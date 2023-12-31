@@ -141,7 +141,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -177,7 +177,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -274,7 +274,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -310,7 +310,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -490,7 +490,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -563,7 +563,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -587,7 +587,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
 
   {
@@ -686,7 +686,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
@@ -698,7 +698,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Boosting",
-    colorAv: "orange",
+    colorAv: "red",
   },
   {
     id: Math.random(),
@@ -807,7 +807,7 @@ export const carsS = [
     cat: "S",
     colorC: "green",
     avail: "Cardealer / Boosting",
-    colorAv: "red",
+    colorAv: "orange",
   },
   {
     id: Math.random(),
