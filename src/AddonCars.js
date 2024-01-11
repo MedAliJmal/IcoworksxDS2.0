@@ -140,7 +140,7 @@ export const addoncars = [
   {
     id: Math.random(),
     name: "Sabowww : F40",
-    url: "https://c10.patreonusercontent.com/4/patreon-media/p/post/38201922/c5815ae80815455f82009f419e014d41/eyJxIjoxMDAsIndlYnAiOjB9/1.jpg?token-time=1704499200&token-hash=Y3pCSDgPZKIA7Dt0vVLYt8iV49YwnE4sdCsnOMakM60%3D",
+    url: "https://c10.patreonusercontent.com/4/patreon-media/p/post/38201922/c4bee4e33d504823a50c78233de1ffb8/eyJxIjoxMDAsIndlYnAiOjB9/1.jpg?token-time=1706227200&token-hash=oFicVxo69HvDtg4xmfzC6ZJrdaVIAmFFzP-lMnNStWE%3D",
     accel: "88%",
     tops: "89%",
     grip: "79%",
